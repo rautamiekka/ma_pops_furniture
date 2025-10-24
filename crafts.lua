@@ -816,7 +816,7 @@ minetest.register_craft({
 	recipe = {
 	{'', '', ''},
 	{'default:'..material, 'default:'..material, 'default:'..material},
-	{'default:'..material, '', 'default:'..material}
+	{'default:stick', '', 'default:stick'}
 	}
 })
 end
@@ -1035,3 +1035,4 @@ minetest.register_craft({
 	{'', 'default:stick', ''}
 	}
 })
+
